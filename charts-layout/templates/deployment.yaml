@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: my-nginx
+  name: my-nginx
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: my-nginx
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: my-nginx
+    spec:
+      volumes:
+        - name: demo-pv-storage
+          persistentVolumeClaim:
+            claimName: demo-pv-claim
+      containers:
+      - image: nginx
+        name: nginx
+        volumeMounts:
+          - mountPath: "/usr/share/nginx/html"
+            name: demo-pv-storage
+        resources: {}
+status: {}
+
