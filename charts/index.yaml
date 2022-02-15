@@ -3,11 +3,11 @@ entries:
   my-nginx:
   - apiVersion: v1
     appVersion: "1"
-    created: "2022-02-15T00:37:01.749707558-08:00"
+    created: "2022-02-15T01:41:11.438795368-08:00"
     description: My custom nginx chart
     digest: f7cf6888968a1d7f65c9bebf906effd92bef4aa142736c9032933f3b1f2826ed
     name: my-nginx
     urls:
-    - https://bhagyashribangar.github.io/helm-chart-repo/my-nginx-0.6.0.tgz
+    - my-nginx-0.6.0.tgz
     version: 0.6.0
-generated: "2022-02-15T00:37:01.749326023-08:00"
+generated: "2022-02-15T01:41:11.438380796-08:00"
