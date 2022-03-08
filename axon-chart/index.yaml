@@ -3,11 +3,11 @@ entries:
   axon:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-02-25T02:29:31.834249951-08:00"
+    created: "2022-03-07T23:05:43.612601259-08:00"
     description: A Helm chart for Axon agent
-    digest: 4a1765c7fe3fd4b2986c93d633d5e5b4d6fbdd76e66bada10cb71adac9e58b4f
+    digest: 44b0e10922c24061f1dd38a5e78971e8a791e3a9621310b7282810bcff353fd1
     name: axon
     urls:
     - axon-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-25T02:29:31.833661968-08:00"
+generated: "2022-03-07T23:05:43.612092952-08:00"
